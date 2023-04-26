@@ -1,7 +1,6 @@
 import * as THREE from 'three';
 
 //critical variables 
-var cam;
 var mainChar;
 
 //game variables
@@ -321,7 +320,7 @@ function update(renderer, scene, camera) {
         } 
     }
 
-    for (index in obstacles) {
+    for (let index = 0; index < obstacles.length; index++) {
         const block =obstacles[index];
 
         //moving blocks
@@ -330,8 +329,8 @@ function update(renderer, scene, camera) {
         }
 
         //detecting collisions using bounding boxes
-        firstBB = new THREE.Box3().setFromObject(mainChar);
-        secondBB = new THREE.Box3().setFromObject(block);
+        var firstBB = new THREE.Box3().setFromObject(mainChar);
+        var secondBB = new THREE.Box3().setFromObject(block);
 
         if (firstBB.intersectsBox(secondBB)){
             // mainChar.color.setHex(0xFF0000);
