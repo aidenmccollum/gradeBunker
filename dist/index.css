@@ -1,0 +1,66 @@
+@font-face { font-family: PressStart2P; src: url('./assets/Press_Start_2P/PressStart2P-Regular.ttf'); } 
+
+html, body {
+    font-family: 'PressStart2P';
+    margin: 0; padding: 0;
+     overflow: hidden;
+}
+#score{
+    position: absolute;
+    right: 2vw;
+    text-align: right;
+    color: white; 
+    z-index: 1000;
+};
+
+#title {
+    position: absolute;
+    left: 2vw;
+    text-align: right;
+    color: white; 
+    z-index: 1000;
+}
+
+#qPrompt {
+    position: absolute;
+    left: 2vw;
+    text-align: left;
+    color: white; 
+    z-index: 1000;
+}
+
+#arrowPrompt {
+    position: absolute;
+    left: 2vw;
+    top: 3vh;
+    text-align: left;
+    color: white; 
+    z-index: 1000;
+}
+
+#reloadPrompt {
+    position: absolute;
+    left: 2vw;
+    top: 6vh;
+    text-align: left;
+    color: white; 
+    z-index: 1000;
+}
+
+#onePrompt {
+    position: absolute;
+    left: 2vw;
+    top: 9vh;
+    text-align: left;
+    color: white; 
+    z-index: 1000;
+}
+
+#twoPrompt {
+    position: absolute;
+    left: 2vw;
+    top: 12vh;
+    text-align: left;
+    color: white; 
+    z-index: 1000;
+}
