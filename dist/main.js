@@ -6,7 +6,6 @@ var mainChar;
 
 //game variables
 var score = 0;
-var highscore = 0;
 
 //movement variables
 var moveDirection = "n";
@@ -14,7 +13,7 @@ var isJumping = false;
 var clock=new THREE.Clock();
 var delta=0;
 var playerSpeed = 0.2;
-velocity_y = 0;
+var velocity_y = 0;
 var camFollow = false;
 
 //light variables
